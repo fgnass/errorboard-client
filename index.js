@@ -9,6 +9,7 @@ function qs(params) {
 
 module.exports = function(host) {
   if (!host) host = 'localhost:3000'
+  if (typeof window == 'undefined') return
   window.onerror = function(message, url, line, column, error) {
     (new Image()).src = '//'+host+'/error?' + qs({
       message: message,

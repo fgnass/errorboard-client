@@ -10,5 +10,6 @@
   "laxbreak": true,
   "laxcomma": true,
   "loopfunc": true,
+  "browser": true,
   "node": true
 }
