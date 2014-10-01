@@ -2,9 +2,9 @@
   "name": "errorboard-client",
   "version": "1.0.0",
   "description": "Submit client-side errors to an ErrorBoard instance",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/fgnass/errorboard-client.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/fgnass/errorboard-client.git"
   },
   "main": "index.js",
   "keywords": [
